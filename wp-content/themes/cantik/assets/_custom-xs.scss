@@ -1,0 +1,42 @@
+@media screen and (max-width: 767px) {
+	.space {
+		padding-top: 70px;
+		padding-bottom: 20px;
+	}
+	
+	.scrollup {
+	    bottom: 60px;
+	    right: 15px;
+	}
+
+	#header {
+		#header-image {
+			padding: 0;
+		}
+		#header-text {
+			padding-top: 30px;
+			padding-bottom: 50px;
+			color: $white;
+			h1 {
+				font-size: 30px;
+			}
+			h2 {
+				font-size: 20px;
+				margin: 0 0 10px 0;
+			}
+		}
+    }
+    
+    #about {
+	    h2.lor {
+	        font-size: 25px;
+	    }
+        .btn-lor {
+            text-align: left;
+        }
+    }
+    
+	footer {
+	    padding: 0 0 60px 0;
+	} 
+}

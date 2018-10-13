@@ -1,0 +1,23 @@
+@media screen and (max-width: 991px) and (min-width: 767px) {
+	.navbar .navbar-nav {
+    	display: inline-block;
+    	float: none;
+	}
+
+	.navbar .navbar-collapse {
+	    text-align: center;
+	}
+	
+	#header {
+		#header-text {
+			padding-top: 75px;
+			color: $white;
+			h1 {
+				font-size: 35px;
+			}
+			h2 {
+				font-size: 20px;
+			}
+		}
+	}
+	}

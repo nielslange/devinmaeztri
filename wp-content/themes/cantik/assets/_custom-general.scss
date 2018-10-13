@@ -1,0 +1,308 @@
+$white	: #ffffff;	
+$grey01	: #ededed;	
+$grey02	: #dddddd;
+$grey03	: #999999;
+$grey04 : #3a3039;
+$grey05 : #666666;
+$red	: #e9787c;
+
+body {
+	background: $grey04;
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+	font-weight: 300;
+}
+
+p {
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 10px 0;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.alignright {
+	float: right;
+	margin: 5px 0 10px 20px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.screen-reader-text {
+	display: none;
+}
+
+.nav-previous {
+    display: inline;
+    float: left;
+    width: 50%;
+}
+
+.nav-next {
+    display: inline;
+    float: right;
+    width: 50%;
+}
+
+.nav-next {
+    text-align: right;
+}
+
+.separator {
+	width: 70%;
+	margin: auto;
+	height: 1px;
+	background: $grey03;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	.fa {
+		margin-top: -20px;
+	}
+}
+
+.progress {
+	height: 30px;
+	.progress-bar {
+		line-height: 30px;
+		text-align: left;
+		padding-left: 10px;
+	}
+}
+
+.navbar {
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
+	.navbar-brand {
+		color: $red;
+	}
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #e9787c;
+}
+
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+	background-color: #f8f8f8;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+	background-color: #e9787c;
+}
+
+.navbar-default {
+	-webkit-box-shadow: 0px 5px 5px rgba(102,102,102,0.3);
+	-moz-box-shadow: 0px 5px 5px rgba(102,102,102,0.3);
+	box-shadow: 0px 5px 5px rgba(102,102,102,0.3);
+}
+
+.nav > li {
+	height: 44px;
+}
+
+.space {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.space-no-bottom {
+	padding-bottom: 0;
+}
+
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: $red;
+    border-radius: 5px;
+    color: $white;
+    padding: 8px 11px;
+    &:hover, &:focus, &:active {
+    	background: darken($red, 10%);
+    	color: $white;
+    }
+}
+
+.acf-map {
+	width: 100%;
+	height: 500px;
+	margin: 20px 0;
+}
+
+.acf-map img {
+	max-width: inherit !important;
+}
+
+#about {
+	background: $grey01;
+	color: $grey05;
+	h2 {
+		color: $grey03;
+		margin-top: 0;
+	}
+	h3 {
+		font-size: 16px;
+		font-weight: 700;
+		margin-bottom: 5px;
+	}
+	.separator {
+		.fa {
+			color: $grey01;
+		}
+		.fa-inverse {
+			color: $grey03;
+		}
+	}
+}
+
+#skills {
+	background: $white;
+	color: $grey04;
+	h2 {
+		color: $grey03;
+		margin-top: 0;
+	}
+	.separator {
+		.fa {
+			color: $white;
+		}
+		.fa-inverse {
+			color: $grey03;
+		}
+	}
+}
+
+#work {
+	background: $grey01;
+	color: $grey05;
+	h2 {
+		color: $grey03;
+		margin-top: 0;
+	}
+	.separator {
+		.fa {
+			color: $grey01;
+		}
+		.fa-inverse {
+			color: $grey03;
+		}
+	}
+}
+
+#education {
+	background: $grey02;
+	color: $grey05;
+	h2 {
+		color: $grey03;
+		margin-top: 0;
+	}
+	.separator {
+		.fa {
+			color: $grey02;
+		}
+		.fa-inverse {
+			color: $grey03;
+		}
+	}
+}
+
+#blog {
+	background: $grey01;
+	color: $grey05;
+	h2 {
+		color: $grey03;
+		margin-top: 0;
+	}
+    h3 {
+        color: $grey05;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 10px 0;
+    }
+	.separator {
+		.fa {
+			color: $grey01;
+		}
+		.fa-inverse {
+			color: $grey03;
+		}
+	}
+	.btn {
+	   margin: 5px 0 10px 0;
+	}
+}
+
+#maps {
+	background: $grey04;
+	color: $white;
+	h2 {
+		color: $grey03;
+		margin-top: 0;
+	}
+	.separator {
+		.fa {
+			color: $grey04;
+		}
+		.fa-inverse {
+			color: $grey03;
+		}
+	}
+}
+
+#post {
+    background: $white;
+    color: $grey03;
+    h2 {
+        color: $grey03;
+        margin-top: 0;
+    }
+    p {
+        text-align: justify;
+    }
+    a {
+        color: $grey03;
+	}
+    .separator {
+        .fa {
+            color: $white;
+        }
+        .fa-inverse {
+            color: $grey03;
+        }
+    }
+}
+
+
+
+footer {
+	padding: 30px 0 20px 0;
+	.text-muted {
+		color: $grey03;
+		a {
+			color: $grey03;
+		}
+		abbr {
+			border: none;
+		}
+	}
+} 

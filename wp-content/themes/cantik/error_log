@@ -1,0 +1,48 @@
+[19-Oct-2017 08:58:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/archive.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/archive.php on line 1
+[19-Oct-2017 08:58:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/archive.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/archive.php on line 1
+[21-Oct-2017 01:46:14 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_head() in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php on line 14
+[21-Oct-2017 01:46:15 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_head() in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php on line 14
+[23-Oct-2017 08:23:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/index.php on line 1
+[23-Oct-2017 08:23:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/index.php on line 1
+[04-Feb-2018 23:31:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_head() in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php on line 14
+[04-Feb-2018 23:31:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_head() in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php on line 14
+[25-Mar-2018 21:35:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_head() in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php on line 14
+[27-Mar-2018 06:40:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_head() in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php on line 14
+[27-Mar-2018 06:40:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_head() in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/header.php on line 14
+[28-Mar-2018 21:59:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/nielslan/sites/devinmaeztri.com/wp-content/themes/cantik/index.php on line 1

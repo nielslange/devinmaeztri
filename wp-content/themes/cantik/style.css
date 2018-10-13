@@ -1,0 +1,93 @@
+/*
+Theme Name: Cantik
+Author: Niels Lange
+Author URI: https://nielslange.com
+Description: Cantik is a simple yet beautiful one page theme built for "paling cantik di dunia"
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one column, responsive-layout
+Text Domain: cantik
+*/
+
+@CHARSET "UTF-8";
+
+#maps {
+	color: #444 !important;
+}
+
+.modal-header {
+    background-color: #ef6b69;
+    color: white;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.modal-header .close {
+    color: #fff;
+    opacity: 1;    
+}
+
+.modal-body input,
+.modal-body textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.modal-body textarea {
+       height: 100px;
+}
+
+.modal-body .ajax-loader {
+    display: none;
+}
+
+.modal-body input[type="submit"] {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #ef6b69;
+    border-color: #ef6b69;
+    color: #fff;
+}
+
+.modal-body form.sent p {
+    display: none;
+}
+
+div.wpcf7-response-output {
+    background-color: #5cb85c;
+    border-color: #5cb85c;;
+    color: #fff;    
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
+
+
