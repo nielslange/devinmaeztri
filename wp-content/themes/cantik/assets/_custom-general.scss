@@ -1,10 +1,10 @@
-$white	: #ffffff;	
-$grey01	: #ededed;	
+$white	: #ffffff;
+$grey01	: #ededed;
 $grey02	: #dddddd;
 $grey03	: #999999;
 $grey04 : #3a3039;
 $grey05 : #666666;
-$red	: #e9787c;
+$red		: #e9787c;
 
 body {
 	background: $grey04;
@@ -16,9 +16,9 @@ h1, h2, h3 {
 }
 
 p {
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
 }
 
 .affix {
@@ -28,19 +28,19 @@ p {
 }
 
 .alignleft {
-    float: left;
-    margin: 5px 20px 10px 0;
-    border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
+	float: left;
+	margin: 5px 20px 10px 0;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
 }
 
 .alignright {
 	float: right;
 	margin: 5px 0 10px 20px;
-    border-radius: 6px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
 }
 
 .screen-reader-text {
@@ -48,19 +48,19 @@ p {
 }
 
 .nav-previous {
-    display: inline;
-    float: left;
-    width: 50%;
+	display: inline;
+	float: left;
+	width: 50%;
 }
 
 .nav-next {
-    display: inline;
-    float: right;
-    width: 50%;
+	display: inline;
+	float: right;
+	width: 50%;
 }
 
 .nav-next {
-    text-align: right;
+	text-align: right;
 }
 
 .separator {
@@ -127,19 +127,19 @@ p {
 }
 
 .scrollup {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: $red;
-    border-radius: 5px;
-    color: $white;
-    padding: 8px 11px;
-    &:hover, &:focus, &:active {
-    	background: darken($red, 10%);
-    	color: $white;
-    }
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: $red;
+	border-radius: 5px;
+	color: $white;
+	padding: 8px 11px;
+	&:hover, &:focus, &:active {
+		background: darken($red, 10%);
+		color: $white;
+	}
 }
 
 .acf-map {
@@ -232,13 +232,13 @@ p {
 		color: $grey03;
 		margin-top: 0;
 	}
-    h3 {
-        color: $grey05;
-        font-weight: 700;
-        font-size: 14px;
-        text-transform: uppercase;
-        margin: 10px 0;
-    }
+	h3 {
+		color: $grey05;
+		font-weight: 700;
+		font-size: 14px;
+		text-transform: uppercase;
+		margin: 10px 0;
+	}
 	.separator {
 		.fa {
 			color: $grey01;
@@ -248,7 +248,7 @@ p {
 		}
 	}
 	.btn {
-	   margin: 5px 0 10px 0;
+		margin: 5px 0 10px 0;
 	}
 }
 
@@ -270,26 +270,26 @@ p {
 }
 
 #post {
-    background: $white;
-    color: $grey03;
-    h2 {
-        color: $grey03;
-        margin-top: 0;
-    }
-    p {
-        text-align: justify;
-    }
-    a {
-        color: $grey03;
+	background: $white;
+	color: $grey03;
+	h2 {
+		color: $grey03;
+		margin-top: 0;
 	}
-    .separator {
-        .fa {
-            color: $white;
-        }
-        .fa-inverse {
-            color: $grey03;
-        }
-    }
+	p {
+		text-align: justify;
+	}
+	a {
+		color: $grey03;
+	}
+	.separator {
+		.fa {
+			color: $white;
+		}
+		.fa-inverse {
+			color: $grey03;
+		}
+	}
 }
 
 
@@ -305,4 +305,4 @@ footer {
 			border: none;
 		}
 	}
-} 
+}
