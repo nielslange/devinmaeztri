@@ -82,11 +82,15 @@
 			
 			<div class="col-sm-8 col-sm-offset-2 hidden-xs text-justify">
 				<p class="text-center">
-					<?php $file = get_field('about_cv_pdf'); ?>
-					<?php if ( $file && get_field('about_cv_button_text') ) : ?>
-		                <a href="<?php echo $file['url']; ?>" class="btn btn-danger" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> <?php the_field('about_cv_button_text'); ?></a> &nbsp;
-		            <?php endif; ?>
-		            <?php if ( get_field('about_popup_button_text') ) : ?>
+					<?php $file_cv = get_field('about_cv_pdf'); ?>
+					<?php if ( $file_cv && get_field('about_cv_button_text') ) : ?>
+                        <a href="<?php echo $file_cv['url']; ?>" class="btn btn-danger" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> <?php the_field('about_cv_button_text'); ?></a> &nbsp;
+					<?php endif; ?>
+					<?php $file_resume = get_field('about_resume_pdf'); ?>
+					<?php if ( $file_resume && get_field('about_resume_button_text') ) : ?>
+                        <a href="<?php echo $file_resume['url']; ?>" class="btn btn-danger" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> <?php the_field('about_resume_button_text'); ?></a> &nbsp;
+					<?php endif; ?>
+					<?php if ( get_field('about_popup_button_text') ) : ?>
 	                	<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal"><i class="fa fa-fw fa-paper-plane" aria-hidden="true"></i> <?php the_field('about_popup_button_text'); ?></button>
 	                <?php endif; ?>
                 </p>
@@ -96,16 +100,20 @@
 				<h2 class="text-center">Letters of Recommendation</h2>
 				<br>
 				<p class="text-center">
-					<a href="https://devinmaeztri.com/wp-content/uploads/2016/08/GIZ.pdf" class="btn btn-danger" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> GIZ</a>
-					<a href="https://devinmaeztri.com/wp-content/uploads/2016/08/University-of-Melbourne.pdf" class="btn btn-danger" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> The University of Melbourne</a>
-					<a href="https://devinmaeztri.com/wp-content/uploads/2016/08/Bogor-Agricultural-University.pdf" class="btn btn-danger" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> Bogor Agricultural University</a>
+					<a href="https://devinmaeztri.com/wp-content/uploads/2016/08/GIZ.pdf" class="btn btn-link" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> GIZ</a>
+					<a href="https://devinmaeztri.com/wp-content/uploads/2016/08/University-of-Melbourne.pdf" class="btn btn-link" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> The University of Melbourne</a>
+					<a href="https://devinmaeztri.com/wp-content/uploads/2016/08/Bogor-Agricultural-University.pdf" class="btn btn-link" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> Bogor Agricultural University</a>
 				</p>
 			</div>
 			
 			<div class="col-xs-12 visible-xs">
-				<?php $file = get_field('about_cv_pdf'); ?>
-				<?php if ( $file && get_field('about_cv_button_text') ) : ?>
-					<p><a href="<?php echo $file['url']; ?>" class="btn btn-danger btn-block" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> <?php the_field('about_cv_button_text'); ?></a></p>
+				<?php $file_cv = get_field('about_cv_pdf'); ?>
+				<?php if ( $file_cv && get_field('about_cv_button_text') ) : ?>
+					<p><a href="<?php echo $file_cv['url']; ?>" class="btn btn-danger btn-block" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> <?php the_field('about_cv_button_text'); ?></a></p>
+				<?php endif; ?>
+				<?php $file_resume = get_field('about_resume_pdf'); ?>
+				<?php if ( $file_resume && get_field('about_resume_button_text') ) : ?>
+                    <a href="<?php echo $file_resume['url']; ?>" class="btn btn-danger" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> <?php the_field('about_resume_button_text'); ?></a> &nbsp;
 				<?php endif; ?>
 				<?php if ( get_field('about_popup_button_text') ) : ?>
                 	<p><button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModal"><i class="fa fa-fw fa-paper-plane" aria-hidden="true"></i> <?php the_field('about_popup_button_text'); ?></button></p>
@@ -113,9 +121,9 @@
                 <br><br>
 				<?php the_field('about_description'); ?>
 				<h2 class="text-center lor">Letters of Recommendation</h2>
-				<p><a href="https://devinmaeztri.com/wp-content/uploads/2016/08/GIZ.pdf" class="btn btn-danger btn-block" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> GIZ</a></p>
-				<p><a href="https://devinmaeztri.com/wp-content/uploads/2016/08/University-of-Melbourne.pdf" class="btn btn-danger btn-block" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> The University of Melbourne</a></p>
-				<p><a href="https://devinmaeztri.com/wp-content/uploads/2016/08/Bogor-Agricultural-University.pdf" class="btn btn-danger btn-block" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> Bogor Agricultural University</a></p>
+				<p><a href="https://devinmaeztri.com/wp-content/uploads/2016/08/GIZ.pdf" class="btn btn-link btn-block" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> GIZ</a></p>
+				<p><a href="https://devinmaeztri.com/wp-content/uploads/2016/08/University-of-Melbourne.pdf" class="btn btn-link btn-block" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> The University of Melbourne</a></p>
+				<p><a href="https://devinmaeztri.com/wp-content/uploads/2016/08/Bogor-Agricultural-University.pdf" class="btn btn-link btn-block" target="_blank"><i class="fa fa-fw fa-file-pdf-o" aria-hidden="true"></i> Bogor Agricultural University</a></p>
 			</div>
 
 		</div>
